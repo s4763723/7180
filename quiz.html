@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Wander Freely</title>
+    <link rel="stylesheet" href="css/base.css" />
+    <link rel="stylesheet" href="css/quiz.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <div class="logo">
+        <img src="img/logo.png" alt="Logo" class="logo-img" />
+      </div>
+      <nav>
+        <ul class="nav-links">
+          <li><a href="index.html" class="active">HOME</a></li>
+          <li><a href="routes.html">ROUTES</a></li>
+          <li><a href="my_plan.html">MY PLAN</a></li>
+          <li><a href="quiz.html">QUIZ</a></li>
+          <li><a href="community.html">COMMUNITY</a></li>
+        </ul>
+      </nav>
+      <div class="user-icon">
+        <img src="img/Login.png" alt="User" />
+      </div>
+    </header>
+
+    <div role="main">
+      <div class="quiz-content">
+          <h1>QUIZ FOR YOU</h1>
+  
+          <div class="quiz-container">
+              <img src="img/narrow-quiz-L.svg" alt="Previous" class="nav-button prev">
+  
+              <div class="card">
+                  <img src="img/Quiz-Frame.svg" alt="Quiz Frame" class="quiz-frame">
+  
+                  <div class="content">
+                      <div class="left-column">
+                          <div class="image-section">
+                              <img src="img/narrow-quiz.svg" alt="History Image">
+                          </div>
+                          <div class="question-section">
+                              This is the history question This is the history question This is the history question
+                          </div>
+                      </div>
+  
+                      <div class="right-column">
+                          <div class="options">
+                              <div class="option">A. I DON'T KNOW</div>
+                              <div class="option">B. I DON'T</div>
+                              <div class="option">C. I KNOW</div>
+                              <div class="option">D. DON'T KNOW</div>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+  
+              <img src="img/narrow-quiz.svg" alt="Next" class="nav-button next">
+          </div>
+  
+          <div class="quiz-progress">
+              <div class="progress-dot active"></div>
+              <div class="progress-dot"></div>
+              <div class="progress-dot"></div>
+              <div class="progress-dot"></div>
+              <div class="progress-dot"></div>
+              <div class="progress-dot"></div>
+              <div class="progress-dot"></div>
+              <div class="progress-dot"></div>
+          </div>
+      </div>
+  
+      <div class="quiz-finished" style="display: none;">
+        <h1>Well Done!</h1>
+        <div class="card">
+            <img src="img/Quiz-Frame.svg" alt="Quiz Frame" class="quiz-frame">
+            <div class="finished-content">
+                <img src="img/Quiz-finished.svg" alt="Quiz Finished" class="finished-image">
+                <div class="bottom-content">
+                <div class="text-content">
+                    <p>You finished the historical quiz!</p>
+                    <p>Congratulations!</p>
+                </div>
+                <button class="review-faults">Review my faults ▶</button>
+            </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+    <footer></footer>
+
+    <script src="JS/quiz.js"></script>
+  </body>
+</html>
